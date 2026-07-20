@@ -1,16 +1,19 @@
-# Portfolio<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Redirecting...</title>
-    <meta
-      http-equiv="refresh"
-      content="0; url=https://kmanibhushanam.ccbp.tech"
-    />
-    <script>
-      window.location.replace("https://kmanibhushanam.ccbp.tech");
-    </script>
-  </head>
+# ARES: APK Runtime Environment System
 
-  <body></body>
-</html>
+Build a lightweight Android APK runtime and compatibility layer for Ubuntu/Linux.
+
+## Setup Instructions
+
+1.  Clone the repository.
+2.  Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+Inspect an APK file:
+
+```bash
+python cli/main.py <path_to_apk>
+```
